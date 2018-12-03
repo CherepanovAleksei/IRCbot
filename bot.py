@@ -33,9 +33,6 @@ def emptyinput():
 
 def main():
   ircsock.send("JOIN "+ channel +"\n")
-
-  with open("ircchat.log", "w") as temp:
-    temp.write("")
     
   while 1: 
     # clear ircmsg value every time
