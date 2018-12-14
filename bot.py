@@ -1,7 +1,7 @@
 import socket, re, subprocess, os, time, threading, sys, re, requests
        
 server = "192.186.157.43"
-channel = "##pihui"
+channel = "#channel_to_connect" #write here the channel you want to connect
 botnick = "youtubeBot"
 
 ircsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
